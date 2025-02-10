@@ -17,5 +17,6 @@ def mask_account_card(payment_number_and_text: str) -> str:
 
 
 def get_date(date_str: str) -> str:
+    """Функция для обработки даты"""
     date_new_form = f"{date_str[8:10]}.{date_str[5:7]}.{date_str[:4]}"
     return date_new_form
